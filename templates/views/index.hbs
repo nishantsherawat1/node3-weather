@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/styles.css"></link>
+        
+    </head>
+    <body>
+        {{>header}}
+        <h1>
+            From a hbs file . paremetrs from app.js are {{title}}, age is {{age}}, name is {{name}}
+        </h1>
+         {{>footer}}
+
+         <form>
+            <input id="inputsearch" type = "text" placeholder="enter something">
+            <button>Search</button>
+          
+         </form>
+
+           <p id = "message-1"></p>
+            <p id = "message-2"></p>
+            
+         <script src="../js/app.js"></script>
+    </body>
+</html>>
